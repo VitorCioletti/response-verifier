@@ -18,8 +18,8 @@ Dotnet: `dotnet add`
 [build]:     https://ci.appveyor.com/project/VitorCioletti/response-verifier
 [build-img]: https://ci.appveyor.com/api/projects/status/pj04auhuml85byls?svg=true
 
-[nuget]:     https://www.nuget.org/packages/Curse-IO/
-[nuget-img]: https://badge.fury.io/nu/curse-io.svg
+[nuget]:     https://www.nuget.org/packages/ResponseVerifier/
+[nuget-img]: https://badge.fury.io/nu/ResponseVerifier.svg
 
 
 This package was made to simplify HTTP response verification. Instead of checking integer value ranges, just call one of the extension methods this library provides.
