@@ -1,10 +1,10 @@
-# Response Verifier
-
 <p align="center" >
     <a>
         <img href="http://www.freepik.com" alt="logo" src="Doc/Image/bird.png" width="150" height="150">
     </a>
 </p>
+
+# Response Verifier
 
 [![][build-img]][build]
 [![][nuget-img]][nuget]
@@ -17,7 +17,9 @@ Dotnet: `dotnet add`
 
 [build]:     https://ci.appveyor.com/project/VitorCioletti/curse-io
 [build-img]: https://ci.appveyor.com/api/projects/status/nv34gc8sm0ds2cxj?svg=true
+
 [nuget]:     https://www.nuget.org/packages/Curse-IO/
+[nuget-img]: https://badge.fury.io/nu/curse-io.svg
 
 
 This package was made to simplify HTTP response verification. Instead of checking integer value ranges, just call one of the extension methods this library provides.
