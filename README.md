@@ -15,8 +15,8 @@ Nuget CLI: `install-package`
 
 Dotnet: `dotnet add` 
 
-[build]:     https://ci.appveyor.com/project/VitorCioletti/curse-io
-[build-img]: https://ci.appveyor.com/api/projects/status/nv34gc8sm0ds2cxj?svg=true
+[build]:     https://ci.appveyor.com/project/VitorCioletti/response-verifier
+[build-img]: https://ci.appveyor.com/api/projects/status/pj04auhuml85byls?svg=true
 
 [nuget]:     https://www.nuget.org/packages/Curse-IO/
 [nuget-img]: https://badge.fury.io/nu/curse-io.svg
