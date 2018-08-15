@@ -48,7 +48,7 @@ else
     // Sad ending :(
 ```
 
-# Provided extenion methods
+## Provided extenion methods
 
 - `.IsFromInformationalResponse()`
 - `.IsFromSucessfulResponse()`
