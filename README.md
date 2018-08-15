@@ -2,7 +2,7 @@
 
 <p align="center" >
     <a>
-        <img alt="logo" src="Logo/logo.jpg" width="250">
+        <img href="http://www.freepik.com" alt="logo" src="Doc/Image/bird.png" width="150" height="150">
     </a>
 </p>
 
