@@ -1,5 +1,24 @@
 # Response Verifier
+
+<p align="center" >
+    <a>
+        <img alt="logo" src="Logo/logo.jpg" width="250">
+    </a>
+</p>
+
+[![][build-img]][build]
+[![][nuget-img]][nuget]
+
 Simple .NET and .NET Core package to verify HTTP status code response groups.
+
+Nuget CLI: install-package
+
+Dotnet: dotnet add 
+
+[build]:     https://ci.appveyor.com/project/VitorCioletti/curse-io
+[build-img]: https://ci.appveyor.com/api/projects/status/nv34gc8sm0ds2cxj?svg=true
+[nuget]:     https://www.nuget.org/packages/Curse-IO/
+
 
 This package was made to simplify HTTP response verification. Instead of checking integer value ranges, just call one of the extension methods this library provides.
 
@@ -28,4 +47,13 @@ if (statusCode >= 200 && statusCode < 300)
 else
     // Sad ending :(
 ``cs
+
+
+<p align="center">
+    <a href="http://creativecommons.org/licenses/by/4.0/">
+        <img alt="logo" src="http://i.creativecommons.org/l/by/4.0/80x15.png">
+    </a>
+</p>
+<p align="center">Creative Commons 4.0 International</p>
+
 
