@@ -4,5 +4,4 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
-  <ProjectVersion>1.0.0</ProjectVersion>
 </Project>
