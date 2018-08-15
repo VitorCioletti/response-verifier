@@ -11,9 +11,9 @@
 
 Simple .NET and .NET Core package to verify HTTP status code response groups.
 
-Nuget CLI: install-package
+Nuget CLI: `install-package`
 
-Dotnet: dotnet add 
+Dotnet: `dotnet add` 
 
 [build]:     https://ci.appveyor.com/project/VitorCioletti/curse-io
 [build-img]: https://ci.appveyor.com/api/projects/status/nv34gc8sm0ds2cxj?svg=true
@@ -48,7 +48,7 @@ else
     // Sad ending :(
 ```
 
-# Provided extenion methods
+## Provided extenion methods
 
 - `.IsFromInformationalResponse()`
 - `.IsFromSucessfulResponse()`
