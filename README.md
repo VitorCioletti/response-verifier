@@ -1,6 +1,6 @@
 <p align="center" >
-    <a>
-        <img href="http://www.freepik.com" alt="logo" src="Doc/Image/bird.png" width="150" height="150">
+    <a href="http://www.freepik.com"> 
+        <img alt="logo" src="Doc/Image/bird.png" width="150" height="150">
     </a>
 </p>
 
