@@ -7,18 +7,18 @@ This package was made to simplify HTTP response verification. Instead of checkin
 
 Do this: 
 
-``cs
+```cs
 var response = client.Execute(request);
 
 if (response.StatusCode.IsFromSuccessfulResponse())
     // Happy ending :)
 else
     // Sad ending :(
-``cs
+```
 
 Instead of this:
 
-``cs
+```cs
 var response = client.Execute(request);
 
 var statusCode = (int)response.StatusCode;
@@ -27,5 +27,13 @@ if (statusCode >= 200 && statusCode < 300)
     // Happy ending :)
 else
     // Sad ending :(
-``cs
+```
+
+# Provided extenion methods
+
+- `.IsFromInformationalResponse()`
+- `.IsFromSucessfulResponse()`
+- `.IsFromRedirectionResponse()`
+- `.IsFromClientErrorResponse()`
+- `.IsFromServerErrorResponse()`
 
