@@ -16,19 +16,19 @@ namespace ResponseVerifier.UnitTests
 
         [TestMethod]
         public void SuccessfulOK() =>
-            Assert.IsTrue(HttpStatusCode.OK.IsFromSucessfulResponse());
+            Assert.IsTrue(HttpStatusCode.OK.IsFromSuccessfulResponse());
 
         [TestMethod]
          public void SuccessfulCreated() =>
-            Assert.IsTrue(HttpStatusCode.Created.IsFromSucessfulResponse());
+            Assert.IsTrue(HttpStatusCode.Created.IsFromSuccessfulResponse());
 
         [TestMethod]
          public void SuccessfulAccepted() =>
-            Assert.IsTrue(HttpStatusCode.Accepted.IsFromSucessfulResponse());
+            Assert.IsTrue(HttpStatusCode.Accepted.IsFromSuccessfulResponse());
 
         [TestMethod]
          public void SuccessfulNonAuthoritativeInformation() =>
-            Assert.IsTrue(HttpStatusCode.NonAuthoritativeInformation.IsFromSucessfulResponse());
+            Assert.IsTrue(HttpStatusCode.NonAuthoritativeInformation.IsFromSuccessfulResponse());
 
         [TestMethod]
         public void RedirectionMultipleChoices() =>

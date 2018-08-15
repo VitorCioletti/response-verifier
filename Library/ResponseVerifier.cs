@@ -14,7 +14,7 @@ namespace ResponseVerifier
         /// <summary>
         /// Verify if the current HTTP status is equal/over than 200 and lower than 300
         /// </summary>
-        public static bool IsFromSucessfulResponse(this HttpStatusCode statusCode) =>
+        public static bool IsFromSuccessfulResponse(this HttpStatusCode statusCode) =>
             IsFrom(StatusCodeGroup.Successful, statusCode);
 
         /// <summary>

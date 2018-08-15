@@ -53,7 +53,7 @@ else
 ## Provided extension methods
 
 - `.IsFromInformationalResponse()`
-- `.IsFromSucessfulResponse()`
+- `.IsFromSuccessfulResponse()`
 - `.IsFromRedirectionResponse()`
 - `.IsFromClientErrorResponse()`
 - `.IsFromServerErrorResponse()`
