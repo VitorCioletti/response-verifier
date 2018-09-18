@@ -10,11 +10,6 @@ Simple .NET and .NET Core package to verify HTTP status code response groups.
 [![][build-img]][build]
 [![][nuget-img]][nuget]
 
-
- Package manager: `Install-Package ResponseVerifier`
-
-.NET CLI: `dotnet add package ResponseVerifier` 
-
 [build]:     https://ci.appveyor.com/project/VitorCioletti/response-verifier
 [build-img]: https://ci.appveyor.com/api/projects/status/pj04auhuml85byls?svg=true
 
