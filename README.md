@@ -59,6 +59,19 @@ else
 - `.IsFromServerErrorResponse()`
 
 
+## Using it with [WhenResponse](https://github.com/nikolasmagno/WhenResponse)
+
+Just a simple library to make response treatment clean and fluent.
+
+```cs
+var client = new RestClient("https://httpstat.us/");
+var request = new RestRequest("202?sleep=2000", Method.GET);
+          
+// execute the request
+IRestResponse response = client.Execute(request);
+response.When((r)=> r.StatusCode.StatusCode.IsFromSuccessfulResponse(),(r)=> System.Console.WriteLine("Ok"))        
+        .When((r)=> !r.StatusCode.StatusCode.IsFromSuccessfulResponse(),(r)=> Assert.Fail("Fail"));
+```
 <p align="center">
     <a href="http://creativecommons.org/licenses/by/4.0/">
         <img alt="logo" src="http://i.creativecommons.org/l/by/4.0/80x15.png">
