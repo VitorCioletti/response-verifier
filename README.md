@@ -5,11 +5,11 @@
 </p>
 
 # Response Verifier
+Simple .NET and .NET Core package to verify HTTP status code response groups.
 
 [![][build-img]][build]
 [![][nuget-img]][nuget]
 
-Simple .NET and .NET Core package to verify HTTP status code response groups.
 
  Package manager: `Install-Package ResponseVerifier`
 
